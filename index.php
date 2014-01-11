@@ -3,7 +3,7 @@
     if($file = file_get_contents($path)){
         return $file;
     } else {
-        return "<h1>Uh Oh! <br>Sorry, Page Not Found</h1>";
+        return file_get_contents("error/404.html");
     }
 
   }
@@ -23,7 +23,7 @@
 ?>
 <html>
   <title><?echo $title?></title>
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"></link>
+  <link href="/assets/stylesheets/bootstrap.min.css" rel="stylesheet"></link>
   <link href="/assets/stylesheets/stylesheet.css" rel='stylesheet'></link>
   <body>
     <? echo $content ?>

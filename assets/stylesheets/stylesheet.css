@@ -92,3 +92,11 @@ li {
     background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
 }
 
+.language {
+  text-align:center;
+}
+.center {
+  text-align:center;
+  padding-bottom:4px;
+  font-size:0.95em;
+}

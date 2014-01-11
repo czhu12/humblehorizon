@@ -3,7 +3,7 @@ Options +FollowSymLinks +ExecCGI
 <IfModule mod_rewrite.c>
 
 RewriteEngine On
-RewriteCond %{REQUEST_URI}  !(\.png|\.jpg|\.gif|\.jpeg|\.bmp|\.js|\.css|\.ttf|\.otf)$
+RewriteCond %{REQUEST_URI}  !(\.png|\.jpg|\.gif|\.jpeg|\.bmp|\.ico|\.js|\.css|\.ttf|\.otf)$
 RewriteRule (.*)  index.php [QSA]
 
 </IfModule>
