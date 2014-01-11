@@ -1,0 +1,94 @@
+@font-face {
+  font-family: bree;
+  src: url(/assets/fonts/BreeSerif_Reg.otf);
+}
+@font-face {
+  font-family: geared;
+  src: url(/assets/fonts/GearedSlab.ttf);
+}
+body {
+  padding:30px 40px;
+  font-size:160%;
+}
+span, div, li, ul, h1, h2, h3, h4 {
+  padding:0px;
+  margin:0px;
+}
+h1 {
+  font-size:3.5em;
+}
+.bree {
+  font-family: bree;
+}
+.geared {
+  font-family: geared; 
+}
+
+.main-hr {
+  padding-top:0;
+  margin-top:0;
+  /*
+  border:0;
+  height:1px;
+  background:#333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+   */
+  height:12px;
+  border:0;
+  box-shadow:inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+.desc-lib {
+  font-style:italic;
+  font-size:0.8em;
+}
+.desc-title {
+  font-size:1.4em;
+}
+
+li {
+  list-style-type:none;
+}
+.side-nav {
+  padding-left:5px;
+  font-size:2em;
+}
+#desc-h3 {
+  top:-25px;
+  position:relative;
+  font-size:1.3em;
+}
+.date {
+  float:right;
+  position:relative;
+  right: 20px;
+}
+.top-10 {
+  padding-top:5px;
+}
+.right {
+  text-align:right;
+}
+#projects-list li {
+  padding-bottom:20px;
+}
+#coop-header {
+  width:60%;
+  position:relative;
+  top: -15px;
+  right:8px;
+}
+#coop-header-div {
+  text-align:right;
+}
+.footer {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
