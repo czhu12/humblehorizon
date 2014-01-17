@@ -17,6 +17,9 @@
       $title = $title." | Resume";
       $content = getContent("partials/resume-body.html");
       break;
+    case 'blog':
+      $content = getContent("partials/blog.html");
+      break;
     default:
       //header('Location: http://wiredhorizon.com');
   }
@@ -25,6 +28,8 @@
   <title><?echo $title?></title>
   <link href="/assets/stylesheets/bootstrap.min.css" rel="stylesheet"></link>
   <link href="/assets/stylesheets/stylesheet.css" rel='stylesheet'></link>
+  <link href="/assets/stylesheets/stylesheet_print.css" rel='stylesheet' type="text/css" media="print"></link>
+  
   <body>
     <? echo $content ?>
   </body>
